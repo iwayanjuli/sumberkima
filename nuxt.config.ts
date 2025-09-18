@@ -1,17 +1,16 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
   css: [
-    "bootstrap/dist/css/bootstrap.min.css",
-    "bootstrap-icons/font/bootstrap-icons.css"
-  ],
-  plugins: [
-    { src: "~/plugins/bootstrap.client", mode: "client" }
+    'bootstrap/dist/css/bootstrap.min.css'
   ],
   app: {
     head: {
-      title: "Desa Sumberkima",
-      meta: [
-        { name: "viewport", content: "width=device-width, initial-scale=1" }
+      script: [
+        {
+          src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
+          integrity: 'sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz',
+          crossorigin: 'anonymous',
+          defer: true
+        }
       ]
     }
   }
