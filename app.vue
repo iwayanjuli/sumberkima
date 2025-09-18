@@ -2,13 +2,7 @@
   <div>
     <!-- Navbar -->
     <header>
-      <!-- Bootstrap Icons (untuk icon lain jika diperlukan) -->
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-      />
-
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
           <!-- Logo & Title -->
           <NuxtLink to="/" class="navbar-brand d-flex align-items-center gap-2 fw-bold">
@@ -16,9 +10,9 @@
               src="/images/logo.png"
               alt="Logo Desa Sumberkima"
               class="me-2"
-              style="height: 60px;"
+              style="height: 50px;"
             />
-            <span class="text-uppercase fw-bold">Desa Sumberkima</span>
+            <span class="text-uppercase text-dark fw-bold">Desa Sumberkima</span>
           </NuxtLink>
 
           <!-- Burger Menu (mobile) -->
@@ -38,16 +32,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-lg-center fw-bold">
               <li class="nav-item">
-                <NuxtLink to="/" exact class="nav-link fw-bold">Beranda</NuxtLink>
+                <NuxtLink to="/" exact class="nav-link text-dark">Beranda</NuxtLink>
               </li>
               <li class="nav-item">
-                <a href="#about" class="nav-link fw-bold">Tentang</a>
+                <a href="#about" class="nav-link text-dark">Tentang</a>
               </li>
               <li class="nav-item">
-                <a href="#destination" class="nav-link fw-bold">Destinasi</a>
+                <a href="#destination" class="nav-link text-dark">Destinasi</a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link fw-bold">Kontak</a>
+                <a href="#contact" class="nav-link text-dark">Kontak</a>
               </li>
 
               <!-- Tombol Book Now -->
@@ -78,7 +72,3 @@
     </footer>
   </div>
 </template>
-
-<script setup>
-// Tidak ada script khusus
-</script>
