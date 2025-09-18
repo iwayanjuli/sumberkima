@@ -1,5 +1,11 @@
 <template>
   <div>
+     <!-- ====== Tambahkan link CSS Bootstrap Icons ====== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
     <header v-if="!isDetailPage">
       <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
